@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-    <title>Mentor - Bootstrap 4 Admin Dashboard Template</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Admin template that can be used to build dashboards for CRM, CMS, etc." />
-    <meta name="author" content="Potenza Global Solutions" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- app favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Academy - Education Course Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
     <!-- plugin stylesheets -->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors.css" />
     <!-- app style -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" /> -->
 </head>
 
 <body class="bg-white">
@@ -25,14 +27,18 @@
         <!-- begin app-wrap -->
         <div class="app-wrap">
             <!-- begin pre-loader -->
-            <div class="loader">
+            <!-- <div class="loader">
                 <div class="h-100 d-flex justify-content-center">
                     <div class="align-self-center">
                         <img src="assets/img/loader/loader.svg" alt="loader">
                     </div>
                 </div>
-            </div>
+            </div> -->
+            <div id="preloader">
+                <i class="circle-preloader"></i>
+            </div>      
             <!-- end pre-loader -->
+
 
             <!--start login contant-->
             <div class="app-contant">
@@ -42,20 +48,20 @@
                             <div class="col-sm-6 col-lg-5 col-xxl-3  align-self-center order-2 order-sm-1">
                                 <div class="d-flex align-items-center h-100-vh">
                                     <div class="login p-50">
-                                        <h1 class="mb-2">We Are Mentor</h1>
+                                        <h1 class="mb-2">Here You are</h1>
                                         <p>Welcome back, please login to your account.</p>
-                                        <form action="http://themes.potenzaglobalsolutions.com/html/mentor-bootstrap-4-admin-dashboard-template/auth-login.html" class="mt-3 mt-sm-5">
+                                        <form action="#" method="post">
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="form-group">
                                                         <label class="control-label">User Name*</label>
-                                                        <input type="text" class="form-control" required placeholder="Username" />
+                                                        <input type="text" name="username" class="form-control" placeholder="Username" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-12">
                                                     <div class="form-group">
                                                         <label class="control-label">Password*</label>
-                                                        <input type="password" class="form-control" placeholder="Password" />
+                                                        <input type="password" name="password" class="form-control" placeholder="Password" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-12">
@@ -70,7 +76,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-12 mt-3">
-                                                    <a href="index.html" class="btn btn-primary text-uppercase">Sign In</a>
+                                                    <!-- <a class="btn btn-primary text-uppercase" type="submit" value="Sign In">Sign In</a> -->
+                                                    <button class="btn btn-primary" type="submit" value="submit" name="submit">Log IN</button>
+
                                                 </div>
                                                 <div class="col-12  mt-3">
                                                     <p>Don't have an account ?<a href="auth-register.html"> Sign Up</a></p>
@@ -90,8 +98,75 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
             <!--end login contant-->
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container">
+    <div class="admin-login-content section-heading ml-50 pl-50">
+        <div class=""> 
+            <div class="col-lg-4 col-md-6 col-sm-8 col-12">
+                <div class="d-flex align-items-center">
+                    <h1 class="">Login</h1>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="control-label">User Name*</label>
+                                    <input type="text" class="form-control" placeholder="Username" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="control-label">Password*</label>
+                                    <input type="password" class="form-control" placeholder="Password" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-block d-sm-flex  align-items-center">
+                                    <a href="#" class="ml-auto">Forgot Password ?</a>
+                                </div>     
+                            </div>
+                            <div class="col-12 mt-3">
+                                <a href="#" class="btn btn-primary text-uppercase">Sign In</a>
+                            </div>
+                            <div class="col-12  mt-3">
+                                <p>Don't have an account ?<a href="auth-register.html"> Sign Up</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
         <!-- end app-wrap -->
     </div>
@@ -99,12 +174,24 @@
 
 
 
+
+
+<script>
+
+</script>
+
+
+
+
+
+
+     <!-- ##### All Javascript Script ##### -->
+
     <!-- plugins -->
     <script src="assets/js/vendors.js"></script>
 
     <!-- custom app -->
     <script src="assets/js/app.js"></script>
 </body>
-
 
 </html>

@@ -48,7 +48,7 @@
                             </div>
                             <nav>
                                 <ul class="useful-links">
-                                    <li><a href="#">Admin</a></li>
+                                    <li><a href="admin/admin-login.php">Admin</a></li>
                                     <li><a href="about-us.php">About us</a></li>
                                     <li><a href="course.php">Course</a></li>
                                     <li><a href="contact.php">Contact</a></li>

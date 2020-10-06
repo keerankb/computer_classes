@@ -120,7 +120,7 @@
                                         </div>
 
                                         <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message" autofocus></textarea>
-                                        <button class="btn academy-btn mt-30" type="submit" valuse="Save" name="Save">Contact Us</button>
+                                        <button class="btn academy-btn mt-30" type="submit" value="Save" name="Save">Contact Us</button>
                                     </form>
                                 </div>
                             </div>
