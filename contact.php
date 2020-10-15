@@ -9,14 +9,32 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>Contact Us | Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo/future logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
-
+    <style>
+    
+    .google-maps iframe html body #map gm-style {
+        position: absolute;
+        left: 0px;
+        top: 80px !important;
+    }
+    .contact-content {
+        background-color: #eef3f6;
+        padding: 100px 50px;
+        position: relative;
+        z-index: 15;
+        /*top: -200px;*/
+        top: 0px !important;
+        margin-bottom: 100px !important;
+        /*margin-bottom: -100px; */
+        margin-top: 100px !important;
+    }
+    </style>
 </head>
 
 <body>
@@ -32,6 +50,9 @@
 
     <!-- ##### Google Maps ##### -->
     
+
+
+
 
 <div class="google-maps">
     
@@ -49,15 +70,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="contact-content">
+                    <div class="contact-content contact-card-bottom">
                         <div class="row">
                             <!-- Contact Information -->
                             <div class="col-12 col-lg-5">
-                                <div class="contact-information wow fadeInUp" data-wow-delay="400ms">
+                                <div class="contact-information wow fadeInLeftBig" data-wow-delay="400ms">
                                     <div class="section-heading text-left">
                                         <span></span>
                                         <h3>Contact Us</h3>
-                                        <p class="mt-30">Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod erat. Ut at erat et arcu pulvinar cursus a eget.</p>
+                                        <p class="mt-30">If you have any queries regarding our approach, methods and techniques, feel free to contact us. We’re always striving to corroborate better educational experience for everyone. </p>
                                     </div>
                                     <!-- <br><br><br><br><br><br><br><br> -->
                                     <!-- Contact Social Info -->
@@ -89,13 +110,13 @@
                                         <div class="contact-icon mr-15">
                                             <i class="icon-contract"></i>
                                         </div>
-                                        <p>office@yourbusiness.com</p>
+                                        <p>futurecomputers.11@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
                             <!-- Contact Form Area -->
                             <div class="col-12 col-lg-7">
-                                <div class="contact-form-area wow fadeInUp" data-wow-delay="500ms">
+                                <div class="contact-form-area wow fadeInRightBig" data-wow-delay="500ms">
                                     <form action="#" method="POST">
                                         <input type="name" class="form-control" id="name" placeholder="Name" required autofocus>
                                         <input type="email" class="form-control" id="email" placeholder="E-mail" required autofocus>

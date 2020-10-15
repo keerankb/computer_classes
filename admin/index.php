@@ -3,14 +3,14 @@
 
 
 <head>
-    <title>Mentor - Bootstrap 4 Admin Dashboard Template</title>
+    <title>Admin Panel - Future Computer</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="Admin template that can be used to build dashboards for CRM, CMS, etc." />
     <meta name="author" content="Potenza Global Solutions" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- app favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" href="../img/logo/future logo.png">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <!-- plugin stylesheets -->
@@ -22,6 +22,11 @@
 <body>
     <!-- begin app -->
 <?php include'header.php'; ?>
+
+
+
+
+
                 <!-- end app-navbar -->
                 <!-- begin app-main -->
                 <div class="app-main" id="main">
@@ -87,24 +92,49 @@
                             <div class="col-sm-12 col-md-4 m-b-30">
                                 <div class="card card-statistics h-100 m-b-0 bg-pink">
                                     <div class="card-body">
-                                        <h2 class="text-white mb-0">128</h2>
-                                        <p class="text-white">Total Courses</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h2 class="text-white mb-0">10</h2>
+                                                <p class="text-white">Total Courses</p>    
+                                            </div>
+                                            <div class="col-6">
+                                                <i class="fa fa-graduation-cap" style="float: right; font-size: 39px; color: #fff;"></i>
+                                            </div>    
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-4 m-b-30">
                                 <div class="card card-statistics h-100 m-b-0 bg-primary">
                                     <div class="card-body">
-                                        <h2 class="text-white mb-0">758</h2>
-                                        <p class="text-white">Total Faculties </p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h2 class="text-white mb-0">12</h2>
+                                                <p class="text-white">Total Faculties</p>    
+                                            </div>
+                                            <div class="col-6">
+                                                <i class="fa fa-user" style="float: right; font-size: 39px; color: #fff;"></i>
+                                            </div> 
+                                        </div>
+                                        <!-- <h2 class="text-white mb-0">758</h2>
+                                        <p class="text-white">Total Faculties </p> -->
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-4 m-b-30">
                                 <div class="card card-statistics h-100 m-b-0 bg-info">
                                     <div class="card-body">
-                                        <h2 class="text-white mb-0">24,500</h2>
-                                        <p class="text-white">Total Students</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h2 class="text-white mb-0">350</h2>
+                                                <p class="text-white">Total Students</p>    
+                                            </div>
+                                            <div class="col-6">
+                                                <i class="fa fa-child" style="float: right; font-size: 39px; color: #fff;"></i>
+                                            </div> 
+                                        </div>
+                                        <!-- <h2 class="text-white mb-0">24,500</h2>
+                                        <p class="text-white">Total Students</p> -->
                                     </div>
                                 </div>
                             </div>
@@ -113,16 +143,34 @@
                             <div class="col-sm-12 col-md-4 m-b-30">
                                 <div class="card card-statistics h-100 m-b-0 bg-pink">
                                     <div class="card-body">
-                                        <h2 class="text-white mb-0">128</h2>
-                                        <p class="text-white">Total Branches</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h2 class="text-white mb-0">2</h2>
+                                                <p class="text-white">Total Branches</p>    
+                                            </div>
+                                            <div class="col-6">
+                                                <i class="fa fa-university" style="float: right; font-size: 39px; color: #fff;"></i>
+                                            </div> 
+                                        </div>
+                                        <!-- <h2 class="text-white mb-0">128</h2>
+                                        <p class="text-white">Total Branches</p> -->
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-4 m-b-30">
                                 <div class="card card-statistics h-100 m-b-0 bg-primary">
                                     <div class="card-body">
-                                        <h2 class="text-white mb-0">758</h2>
-                                        <p class="text-white">Total City </p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h2 class="text-white mb-0">2</h2>
+                                                <p class="text-white">Total City</p>    
+                                            </div>
+                                            <div class="col-6">
+                                                <i class="fa fa-building" style="float: right; font-size: 39px; color: #fff;"></i>
+                                            </div> 
+                                        </div>
+                                        <!-- <h2 class="text-white mb-0">758</h2>
+                                        <p class="text-white">Total City </p> -->
                                     </div>
                                 </div>
                             </div>
@@ -139,24 +187,51 @@
                             <div class="col-sm-12 col-md-4 m-b-30">
                                 <div class="card card-statistics h-100 m-b-0 bg-pink">
                                     <div class="card-body">
-                                        <h2 class="text-white mb-0">128</h2>
-                                        <p class="text-white">On-going Courses</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h2 class="text-white mb-0">14</h2>
+                                                <p class="text-white">On-going Courses</p>    
+                                            </div>
+                                            <div class="col-6">
+                                                <i class="fa fa-book" style="float: right; font-size: 39px; color: #fff;"></i>
+                                            </div> 
+                                        </div>
+                                        <!-- <h2 class="text-white mb-0">128</h2>
+                                        <p class="text-white">On-going Courses</p> -->
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-4 m-b-30">
                                 <div class="card card-statistics h-100 m-b-0 bg-primary">
                                     <div class="card-body">
-                                        <h2 class="text-white mb-0">758</h2>
-                                        <p class="text-white">Up-coming Courses </p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h2 class="text-white mb-0">8</h2>
+                                                <p class="text-white">Up-coming Courses</p>    
+                                            </div>
+                                            <div class="col-6">
+                                                <i class="fa fa-address-book" style="float: right; font-size: 39px; color: #fff;"></i>
+                                            </div> 
+                                        </div>
+                                        <!-- <h2 class="text-white mb-0">758</h2>
+                                        <p class="text-white">Up-coming Courses </p> -->
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-4 m-b-30">
                                 <div class="card card-statistics h-100 m-b-0 bg-orange">
                                     <div class="card-body">
-                                        <h2 class="text-white mb-0">2521</h2>
-                                        <p class="text-white">Students Rating </p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h2 class="text-white mb-0">50</h2>
+                                                <p class="text-white">Students Rating</p>    
+                                            </div>
+                                            <div class="col-6" style="float: left;">
+                                                <i class="fa fa-star" style="float: right; font-size: 39px; color: #fff;"></i>
+                                            </div> 
+                                        </div>
+                                        <!-- <h2 class="text-white mb-0">2521</h2>
+                                        <p class="text-white">Students Rating </p> -->
                                     </div>
                                 </div>
                             </div>
@@ -165,24 +240,51 @@
                             <div class="col-sm-12 col-md-4 m-b-30">
                                 <div class="card card-statistics h-100 m-b-0 bg-pink">
                                     <div class="card-body">
-                                        <h2 class="text-white mb-0">128</h2>
-                                        <p class="text-white">Total Feedback</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h2 class="text-white mb-0">28</h2>
+                                                <p class="text-white">Total Feedback</p>    
+                                            </div>
+                                            <div class="col-6" style="float: left;">
+                                                <i class="fa fa-comment" style="float: right; font-size: 39px; color: #fff;"></i>
+                                            </div> 
+                                        </div>
+                                        <!-- <h2 class="text-white mb-0">128</h2>
+                                        <p class="text-white">Total Feedback</p> -->
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-4 m-b-30">
                                 <div class="card card-statistics h-100 m-b-0 bg-primary">
                                     <div class="card-body">
-                                        <h2 class="text-white mb-0">758</h2>
-                                        <p class="text-white">Total Enquiry</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h2 class="text-white mb-0">40</h2>
+                                                <p class="text-white">Total Enquiry</p>    
+                                            </div>
+                                            <div class="col-6" style="float: left;">
+                                                <i class="fa fa-pencil-square-o" style="float: right; font-size: 39px; color: #fff;"></i>
+                                            </div> 
+                                        </div>
+                                        <!-- <h2 class="text-white mb-0">758</h2>
+                                        <p class="text-white">Total Enquiry</p> -->
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-4 m-b-30">
                                 <div class="card card-statistics h-100 m-b-0 bg-info">
                                     <div class="card-body">
-                                        <h2 class="text-white mb-0">24,500</h2>
-                                        <p class="text-white">Total Registration</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h2 class="text-white mb-0">35</h2>
+                                                <p class="text-white">Registration</p>    
+                                            </div>
+                                            <div class="col-6" style="float: left;">
+                                                <i class="fa fa-users" style="float: right; font-size: 39px; color: #fff;"></i>
+                                            </div> 
+                                        </div>
+                                        <!-- <h2 class="text-white mb-0">24,500</h2>
+                                        <p class="text-white">Total Registration</p> -->
                                     </div>
                                 </div>
                             </div>

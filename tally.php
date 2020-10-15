@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>Tally | Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo/future logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -40,7 +40,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                    <div class="section-heading text-center mx-auto wow bounceIn" data-wow-delay="300ms">
                         <!-- <span>The Best</span> -->
                         <h3>Tally ERP 9</h3><br>
                         <span>Duration : 3 months</span>
@@ -48,10 +48,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                    <p>Tally is powerful accounting software, which is driven by a technology called concurrent multi-lingual accelerated technology engine. Tally provides comprehensive solution around accounting principles, inventory and data integrity. Tally also has feature encompassing global business. It is easy to use software and is designed to simply complex day to day activities associated in an enterprise. Tally provides comprehensive solution around accounting principles, inventory and data integrity. Tally also has feature encompassing global business.</p>
+                <div class="col-12 col-md-6 wow bounceInLeft" data-wow-delay="400ms">
+                    <p>Future Computers wants you to become a pro in Accounting, Tax Management, Banking and other things so that you can manage your business flawlessly. We've introduced Tally ERP with GST course for the benefit of our learners. The multi-functional aspects of Tally ERP will be explained to you by our experts. Additionally, you get an insight of GST implementation in the financial aspects of your business. </p>
                 </div>
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="500ms">
+                <div class="col-12 col-md-6 wow bounceInRight" data-wow-delay="500ms">
                     <p>Tally accounting software provides a solution around inventory management, stock management, invoicing, purchase order management, discounting, stock valuation methodology, etc. Tally accounting software also comes with drill down options, which can track every detail of transaction. It helps in maintaining simple classification of accounts, general ledger, accounts receivable and payable, bank reconciliation, etc. The technology employed by tally makes data reliable and secure. Tally software supports all the major types of file transfer protocols. This helps in connecting files across multiple office locations.</p>
                 </div>
             </div>
@@ -69,7 +69,7 @@
     <!-- ##### Course Area End ##### -->
 
 <!-- ##### CTA Area Start ##### -->
-    <div class="call-to-action-area">
+    <div class="call-to-action-area wow fadeInUp" data-wow-delay="600ms">
         <div class="container">
             <div class="row">
                 <div class="col-12">

@@ -1,14 +1,21 @@
+    <style>
+        .widget-title img {
+            height: auto;
+            max-width: 80%;
+        }
+    </style>
+
     <footer class="footer-area">
         <div class="main-footer-area section-padding-100-0">
             <div class="container">
                 <div class="row">
                     <!-- Footer Widget Area -->
                     <div class="col-12 col-sm-12 col-lg-4">
-                        <div class="footer-widget mb-100">
-                            <div class="widget-title">
-                                <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
+                        <div class="footer-widget mb-100  wow slideInLeft" data-wow-delay="300ms">
+                            <div class="widget-title wow rotateInDownLeft" data-wow-delay="1000ms">
+                                <a href="#"><img src="img/logo/future logo banner bw.png" alt=""></a>
                             </div>
-                            <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod erat. Ut at erat et arcu pulvinar cursus a eget.</p><br><br><br>
+                            <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod erat. Ut at erat et arcu pulvinar cursus a eget.</p>
                             <div class="footer-social-info">
                                 <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
                                 <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -22,7 +29,7 @@
 
 
                     <div class="col-12 col-sm-7 col-lg-5">
-                        <div class="footer-widget mb-100">
+                        <div class="footer-widget mb-100  wow slideInDown" data-wow-delay="300ms">
                             <div class="widget-title">
                                 <h6>Contact</h6>
                             </div>
@@ -36,13 +43,13 @@
                             </div>
                             <div class="single-contact d-flex">
                                 <i class="icon-contract"></i>
-                                <p>office@yourbusiness.com</p>
+                                <p>futurecomputers.11@gmail.com</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-5 col-lg-3">
-                        <div class="footer-widget mb-100">
+                        <div class="footer-widget mb-100 wow slideInRight" data-wow-delay="300ms">
                             <div class="widget-title">
                                 <h6>Usefull Links</h6>
                             </div>

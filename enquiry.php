@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>Enquiry | Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo/future logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -44,7 +44,7 @@
         </div>
  -->
 
-        <div class="enquiry-form wow fadeInUp" data-wow-delay="300ms">
+        <div class="enquiry-form wow bounceInUp" data-wow-delay="300ms">
             <!-- <div class="row"> -->
 <!-- 
                 <form class="container form-inline">
@@ -251,7 +251,7 @@
                     </div>
           
                 </div> -->
-<div class="enquiry-narrow-content fadeInLeft wow fadeInUp" data-wow-delay="500ms">
+<div class="enquiry-narrow-content fadeInLeft wow bounceInUp" data-wow-delay="500ms">
                 
 
         <!-- <br /><br /> -->

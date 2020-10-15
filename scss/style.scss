@@ -434,7 +434,7 @@ img {
             background-color: transparent;
         }
         .classy-navbar {
-            background-color: $bg-gray;
+            background-color: #693150;
             height: 85px;
             padding: 0;
             @media #{$breakpoint-md} {
@@ -1310,8 +1310,8 @@ img {
     padding: 100px 50px;
     position: relative;
     z-index: 15;
-    top: -200px;
-    margin-bottom: -100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     @media #{$breakpoint-xs} {
         padding: 50px 30px;
     }

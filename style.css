@@ -293,9 +293,9 @@ img {
   line-height: 65px;
   -webkit-transition: all 500ms;
   transition: all 500ms;
-  background: #61ba6d;
-  background-image: -webkit-linear-gradient(left, #ffe100 0%, #f79345 51%, #ffe100 100%);
-  background-image: linear-gradient(to right, #ffe100 0%, #f79345 51%, #ffe100 100%);
+  /*background: #61ba6d;*/
+  background-image: -webkit-linear-gradient(to right, #000, #693150);
+  background-image: linear-gradient(to right, #000, #693150);
   font-weight: 600; }
   .academy-btn.btn-sm {
     min-width: 110px;
@@ -306,9 +306,10 @@ img {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background: #61ba6d;
-    background: -webkit-linear-gradient(to right, #ffe100, #f79345);
-    background: linear-gradient(to right, #ffe100, #f79345); }
+    background: #000;
+    /*border: 2px solid #693150;*/
+    /*background: -webkit-linear-gradient(to right, #693150, #000);
+    background: linear-gradient(to right, #693150, #000);*/ }
   .academy-btn.btn-2 {
     background: #141414; }
     .academy-btn.btn-2:hover, .academy-btn.btn-2:focus {
@@ -352,15 +353,20 @@ img {
     .header-area .academy-main-menu .classy-nav-container {
       background-color: transparent; }
     .header-area .academy-main-menu .classy-navbar {
-      background-color: #343a40;
+      /*background-color: #343a40;*/
       height: 85px;
+      background: linear-gradient(to right, #000, #f4af23);
       padding: 0; }
     .breakpoint-on .classynav ul li a {
-      background-color: #343a40;
+      /*background-color: #343a40;*/
+      background: linear-gradient(to right, #000, #693150) !important;
+      background: -webkit-linear-gradient(to right, #000, #693150) !important;
       border-bottom: 1px solid rgba(255,255,255,.5);
       }
       .header-area .academy-main-menu .classy-navbar .dropdown {
-        background-color: #343a40;
+        /*background-color: #343a40;*/
+      background: linear-gradient(to right, #000, #693150) !important;
+      background: -webkit-linear-gradient(to right, #000, #693150) !important;
       }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .header-area .academy-main-menu .classy-navbar {
@@ -397,9 +403,9 @@ img {
       .header-area .academy-main-menu .calling-info .call-center {
         position: relative;
         z-index: 1;
-        background: #61ba6d;
-        background: -webkit-linear-gradient(to right, #f79345, #ffe100);
-        background: linear-gradient(to right, #f79345, #ffe100);
+        background: #f4af23;
+/*        background: -webkit-linear-gradient(to right, #f79345, #ffe100);
+        background: linear-gradient(to right, #f79345, #ffe100);*/
         padding: 0 40px;
         line-height: 85px;
         height: 85px; }
@@ -434,7 +440,7 @@ img {
           top: 3px;
           left: -28px;
           z-index: 1;
-          background-color: #f79345;
+          background-color: #f4af23;
           content: '';
           -webkit-transform: rotate(30deg);
           transform: rotate(30deg); }
@@ -448,8 +454,10 @@ img {
     top: 0;
     left: 0;
     z-index: 3000;
-    background-color: #343a40;
-    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2); }
+    background-color: #000;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
+    content:url(img/logo/future logo sm.png) !important;
+  }
     .header-area .is-sticky .academy-main-menu::after {
       position: absolute;
       width: 25%;
@@ -457,8 +465,9 @@ img {
       top: 0;
       right: 0;
       z-index: 1;
-      background-color: #ffe100;
-      content: ''; }
+      background-color: #f4af23;
+      content: '';
+     }
 
 .hero-slides {
   position: relative;
@@ -1048,8 +1057,11 @@ img {
   padding: 100px 50px;
   position: relative;
   z-index: 15;
-  top: -200px;
-  margin-bottom: -100px; }
+  /*top: -200px;*/
+  /*margin-bottom: -100px; */
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
   @media only screen and (max-width: 767px) {
     .contact-content {
       padding: 50px 30px;

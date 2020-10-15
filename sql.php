@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>SQL | Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo/future logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -40,7 +40,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                    <div class="section-heading text-center mx-auto wow bounceIn" data-wow-delay="300ms">
                         <!-- <span>The Best</span> -->
                         <h3>SQL</h3><br>
                         <span>Duration : 1 month</span>
@@ -48,10 +48,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                <div class="col-12 col-md-6 wow bounceInLeft" data-wow-delay="400ms">
                     <p>SQL is Structured Query Language, which is a computer language for storing, manipulating and retrieving data stored in a relational database. SQL is a database computer language designed for the retrieval and management of data in a relational database. SQL stands for Structured Query Language. This tutorial will give you a quick start to SQL. It covers most of the topics required for a basic understanding of SQL and to get a feel of how it works. SQL is the standard language for Relational Database System. All the Relational Database Management Systems (RDMS) like MySQL, MS Access, Oracle, Sybase, Informix, Postgres and SQL Server use SQL as their standard database language.</p>
                 </div>
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="500ms">
+                <div class="col-12 col-md-6 wow bounceInRight" data-wow-delay="500ms">
                     <p><strong>Course Structure:</strong><br>
                         <ol>
                             <li>Introduction</li>
@@ -80,7 +80,7 @@
     <!-- ##### Course Area End ##### -->
 
 <!-- ##### CTA Area Start ##### -->
-    <div class="call-to-action-area">
+    <div class="call-to-action-area wow fadeInUp" data-wow-delay="600ms">
         <div class="container">
             <div class="row">
                 <div class="col-12">

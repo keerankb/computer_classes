@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>C# | Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo/future logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -39,7 +39,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                    <div class="section-heading text-center mx-auto wow bounceIn" data-wow-delay="300ms">
                         <!-- <span>The Best</span> -->
                         <h3>C# Programming</h3><br>
                         <span>Duration : 2 months</span>
@@ -47,10 +47,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                <div class="col-12 col-md-6 wow bounceInLeft" data-wow-delay="400ms">
                     <p>C# is a simple, modern, general-purpose, object-oriented programming language developed by Microsoft within its .NET initiative led by Anders Hejlsberg. This tutorial will teach you basic C# programming and will also take you through various advanced concepts related to C# programming language. C# is a modern, general-purpose, object-oriented programming language developed by Microsoft and approved by European Computer Manufacturers Association (ECMA) and International Standards Organization (ISO). C# was developed by Anders Hejlsberg and his team during the development of .Net Framework.</p>
                 </div>
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="500ms">
+                <div class="col-12 col-md-6 wow bounceInRight" data-wow-delay="500ms">
                     <p><strong>Course Structure:</strong><br>
                         <ol>
                             <li>Introduction</li>
@@ -79,7 +79,7 @@
     <!-- ##### Course Area End ##### -->
 
 <!-- ##### CTA Area Start ##### -->
-    <div class="call-to-action-area">
+    <div class="call-to-action-area wow fadeInUp" data-wow-delay="600ms">
         <div class="container">
             <div class="row">
                 <div class="col-12">

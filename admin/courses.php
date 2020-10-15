@@ -3,20 +3,26 @@
 
 
 <head>
-    <title>Mentor - Bootstrap 4 Admin Dashboard Template</title>
+    <title>Admin Panel - Future Computer</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="Admin template that can be used to build dashboards for CRM, CMS, etc." />
     <meta name="author" content="Potenza Global Solutions" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- app favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" href="../img/logo/future logo.png">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <!-- plugin stylesheets -->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors.css" />
     <!-- app style -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <style>
+    .page-title h1 {
+        color: #6C3353;
+    }
+    </style>
 </head>
 
 <body>
@@ -53,6 +59,114 @@
                             </div>
                         </div>
                         
+<!-- 
+<style>
+    
+    table {
+  /*border: 1px solid black;*/
+  table-layout: fixed;
+  /*height: 50px;*/
+  width: 100%;
+}
+
+
+th,
+td {
+  /*border: 1px solid black;*/
+  /*width: 50px;*/
+  /*height: 35px;*/
+  overflow: hidden;
+  padding-left: 15px;
+  font-size: 16px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+
+}
+/*table tbody td {
+    height: 80px;
+}
+*/
+thead {
+    background-color: #ebebeb;
+    height: 30px;
+}
+
+</style>
+
+
+
+
+
+
+
+
+            <div class="card-body">
+                <div class="datatable-wrapper table-responsive">
+                    <div id="datatable_wrapper" class="dataTables_wrapper dt-bootstrap4">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                            
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                            
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <table class="table-stripped table-bordered display compact dataTable" id="datatable" role="grid" aria-describedby="datatable_info">
+                                    <thead>
+                                        <tr>
+                                            <th>Name of Course</th>
+                                            <th>Duration</th>
+                                            <th>Description</th>
+                                            <th>Syllabus</th>
+                                            <th>Image</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Web Development</td>
+                                            <td>3 Months</td>
+                                            <td>Though this is an introductory course, students are expected to have basic computer and internet navigation skills</td>
+                                            <td>HTML Fundamentals, Elements, Attributes, Headings, Paragraphs, Formatting, Styles, Links, Images, Tables, Lists, Forms, Colors, HTML Advanced</td>
+                                            <td><img src="../img/blog-img/lb-1.jpg"></td>
+                                            <td style="white-space: nowrap; width: 1%;">
+                                                <div style="text-align: left;">
+                                                    <div class="btn btn-sm" style="float: none;">
+                                                        <button type="button" class="btn btn-sm btn-primary mb-10" style="float: none;"><span class="fa fa-pencil"></span> &nbsp; EDIT</button><br>
+                                                        <button type="button" class="btn btn-sm btn-danger" style="float: none;"><span class="fa fa-trash"></span> &nbsp; DELETE</button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tally</td>
+                                            <td>3 Months</td>
+                                            <td>Tally is powerful accounting software, which is driven by a technology called concurrent multi-lingual accelerated technology engine. Tally provides comprehensive solution around accounting principles, inventory and data integrity. Tally also has feature encompassing global business. It is easy to use software and is designed to simply complex day to day activities associated in an enterprise. Tally provides comprehensive solution around accounting principles, inventory and data integrity. Tally also has feature encompassing global business.</td>
+                                            <td>Tally ERP 9</td>
+                                            <td><img src="../img/blog-img/lb-1.jpg"></td>
+                                            <td style="white-space: nowrap; width: 1%;">
+                                                <div style="text-align: left;">
+                                                    <div class="btn btn-sm" style="float: none;">
+                                                        <button type="button" class="btn btn-sm btn-primary mb-10" style="float: none;"><span class="fa fa-pencil"></span> &nbsp; EDIT</button><br>
+                                                        <button type="button" class="btn btn-sm btn-danger" style="float: none;"><span class="fa fa-trash"></span> &nbsp; DELETE</button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+
                         <!-- begin row -->
                         <div class="card-body">
                             <div class="datatable-wrapper table-responsive">
@@ -68,25 +182,26 @@
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <table id="datatable" class="display compact table table-striped table-bordered dataTable" role="grid" aria-describedby="datatable_info">
-                                                <thead>
+                                                <thead class="custom-head">
                                                     <tr role="row">
-                                                        <th class="sorting_asc" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 75px;">Name of Course</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Duration: activate to sort column ascending" style="width: 35px;">Duration</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Start-Date: activate to sort column ascending" style="width: 35px;">Start-Date</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="End-Date: activate to sort column ascending" style="width: 35px;">End-Date</th>
-                                                        <!-- <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Description: activate to sort column ascending" style="width: 75px;">Description</th --><!-- 
-                                                        <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Salary: activate to sort column ascending" style="width: 25px;">Action</th> -->
+                                                        <th class="sorting_asc" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 75px !important;">Name of Course</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Duration: activate to sort column ascending" style="width: 35px !important;">Duration</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Description: activate to sort column ascending" style="width: 35px !important;">Description</th>
+                                                        <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Syllabus: activate to sort column ascending" style="width: 35px !important;">Syllabus</th>
+                                                        <th rowspan="1" colspan="1" style="width: 35px !important;">Image</th>
+                                                         
+                                                        
                                                      
-                                                        <th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="activate to sort column ascending" style="width: 100.625px;"></th>
+                                                        <th class="" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="" style="width: 100.625px;">Acion</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>   
                                                     <tr role="row" class="odd">
                                                         <td class="sorting_1">Web Development</td>
                                                         <td>2 Months</td>
-                                                        <td>25/11/2020</td>
-                                                        <td>20/1/2021</td>
-                                                        <!-- <td>Though this is an introductory course, students are expected to have basic computer and internet navigation skills</td> -->
+                                                        <td height="50px">Though this is an introductory course, students are expected <br> to have basic computer and internet navigation skills</td>
+                                                        <td>HTML Fundamentals, Elements,<br> Attributes, Headings,<br> Paragraphs, Formatting,<br> Styles, Links,<br> Images, Tables,<br> Lists, Forms, Colors, HTML Advanced</td>
+                                                        <td><img src="../img/blog-img/lb-1.jpg"></td>
                                                         <td style="white-space: nowrap; width: 1%;">
                                                             <div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
                                                                 <div class="btn-group btn-group-sm" style="float: none;">
@@ -97,41 +212,11 @@
                                                         </td>
                                                     </tr>
                                                     <tr role="row" class="odd">
-                                                        <td class="sorting_1">Java</td>
-                                                        <td>3 Months</td>
-                                                        <td>2/1/2021</td>
-                                                        <td>4/4/2021</td>
-                                                        <!-- <td>Though this is an introductory course, students are expected to have basic computer and internet navigation skills</td> -->
-                                                        <td style="white-space: nowrap; width: 1%;">
-                                                            <div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
-                                                                <div class="btn-group btn-group-sm" style="float: none;">
-                                                                    <button type="button" class="tabledit-edit-button btn btn-sm btn-primary" style="float: none;"><span class="fa fa-pencil"></span> &nbsp; EDIT</button>
-                                                                    <button type="button" class="tabledit-delete-button btn btn-sm btn-danger" style="float: none;"><span class="fa fa-trash"></span> &nbsp; DELETE</button>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr role="row" class="odd">
-                                                        <td class="sorting_1">Python</td>
-                                                        <td>3 Months</td>
-                                                        <td>30/11/2020</td>
-                                                        <td>2/3/2021</td>
-                                                        <!-- <td>Though this is an introductory course, students are expected to have basic computer and internet navigation skills</td> -->
-                                                        <td style="white-space: nowrap; width: 1%;">
-                                                            <div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
-                                                                <div class="btn-group btn-group-sm" style="float: none;">
-                                                                    <button type="button" class="tabledit-edit-button btn btn-sm btn-primary" style="float: none;"><span class="fa fa-pencil"></span> &nbsp; EDIT</button>
-                                                                    <button type="button" class="tabledit-delete-button btn btn-sm btn-danger" style="float: none;"><span class="fa fa-trash"></span> &nbsp; DELETE</button>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr role="row" class="odd">
-                                                        <td class="sorting_1">C & C++</td>
+                                                        <td class="sorting_1">Web Development</td>
                                                         <td>2 Months</td>
-                                                        <td>15/12/2020</td>
-                                                        <td>18/2/2021</td>
-                                                        <!-- <td>Though this is an introductory course, students are expected to have basic computer and internet navigation skills</td> -->
+                                                        <td height="50px">Though this is an introductory course, students are expected <br> to have basic computer and internet navigation skills</td>
+                                                        <td>HTML Fundamentals, Elements,<br> Attributes, Headings,<br> Paragraphs, Formatting,<br> Styles, Links,<br> Images, Tables,<br> Lists, Forms, Colors, HTML Advanced</td>
+                                                        <td><img src="../img/blog-img/lb-1.jpg"></td>
                                                         <td style="white-space: nowrap; width: 1%;">
                                                             <div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
                                                                 <div class="btn-group btn-group-sm" style="float: none;">
@@ -142,11 +227,11 @@
                                                         </td>
                                                     </tr>
                                                     <tr role="row" class="odd">
-                                                        <td class="sorting_1">ASP.NET</td>
+                                                        <td class="sorting_1">Web Development</td>
                                                         <td>2 Months</td>
-                                                        <td>25/12/2020</td>
-                                                        <td>26/2/2021</td>
-                                                        <!-- <td>Though this is an introductory course, students are expected to have basic computer and internet navigation skills</td> -->
+                                                        <td height="50px">Though this is an introductory course, students are expected <br> to have basic computer and internet navigation skills</td>
+                                                        <td>HTML Fundamentals, Elements,<br> Attributes, Headings,<br> Paragraphs, Formatting,<br> Styles, Links,<br> Images, Tables,<br> Lists, Forms, Colors, HTML Advanced</td>
+                                                        <td><img src="../img/blog-img/lb-1.jpg"></td>
                                                         <td style="white-space: nowrap; width: 1%;">
                                                             <div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
                                                                 <div class="btn-group btn-group-sm" style="float: none;">
@@ -157,26 +242,11 @@
                                                         </td>
                                                     </tr>
                                                     <tr role="row" class="odd">
-                                                        <td class="sorting_1">SQL</td>
-                                                        <td>1 Month</td>
-                                                        <td>25/10/2020</td>
-                                                        <td>24/11/2020</td>
-                                                        <!-- <td>Though this is an introductory course, students are expected to have basic computer and internet navigation skills</td> -->
-                                                        <td style="white-space: nowrap; width: 1%;">
-                                                            <div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
-                                                                <div class="btn-group btn-group-sm" style="float: none;">
-                                                                    <button type="button" class="tabledit-edit-button btn btn-sm btn-primary" style="float: none;"><span class="fa fa-pencil"></span> &nbsp; EDIT</button>
-                                                                    <button type="button" class="tabledit-delete-button btn btn-sm btn-danger" style="float: none;"><span class="fa fa-trash"></span> &nbsp; DELETE</button>
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr role="row" class="odd">
-                                                        <td class="sorting_1">C#</td>
+                                                        <td class="sorting_1">Web Development</td>
                                                         <td>2 Months</td>
-                                                        <td>1/11/2020</td>
-                                                        <td>1/1/2021</td>
-                                                        <!-- <td>Though this is an introductory course, students are expected to have basic computer and internet navigation skills</td> -->
+                                                        <td height="50px">Though this is an introductory course, students are expected <br> to have basic computer and internet navigation skills</td>
+                                                        <td>HTML Fundamentals, Elements,<br> Attributes, Headings,<br> Paragraphs, Formatting,<br> Styles, Links,<br> Images, Tables,<br> Lists, Forms, Colors, HTML Advanced</td>
+                                                        <td><img src="../img/blog-img/lb-1.jpg"></td>
                                                         <td style="white-space: nowrap; width: 1%;">
                                                             <div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
                                                                 <div class="btn-group btn-group-sm" style="float: none;">
@@ -187,11 +257,56 @@
                                                         </td>
                                                     </tr>
                                                     <tr role="row" class="odd">
-                                                        <td class="sorting_1">Tally</td>
-                                                        <td>3 Months</td>
-                                                        <td>30/11/2020</td>
-                                                        <td>25/2/2021</td>
-                                                        <!-- <td>Though this is an introductory course, students are expected to have basic computer and internet navigation skills</td> -->
+                                                        <td class="sorting_1">Web Development</td>
+                                                        <td>2 Months</td>
+                                                        <td height="50px">Though this is an introductory course, students are expected <br> to have basic computer and internet navigation skills</td>
+                                                        <td>HTML Fundamentals, Elements,<br> Attributes, Headings,<br> Paragraphs, Formatting,<br> Styles, Links,<br> Images, Tables,<br> Lists, Forms, Colors, HTML Advanced</td>
+                                                        <td><img src="../img/blog-img/lb-1.jpg"></td>
+                                                        <td style="white-space: nowrap; width: 1%;">
+                                                            <div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
+                                                                <div class="btn-group btn-group-sm" style="float: none;">
+                                                                    <button type="button" class="tabledit-edit-button btn btn-sm btn-primary" style="float: none;"><span class="fa fa-pencil"></span> &nbsp; EDIT</button>
+                                                                    <button type="button" class="tabledit-delete-button btn btn-sm btn-danger" style="float: none;"><span class="fa fa-trash"></span> &nbsp; DELETE</button>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr role="row" class="odd">
+                                                        <td class="sorting_1">Web Development</td>
+                                                        <td>2 Months</td>
+                                                        <td height="50px">Though this is an introductory course, students are expected <br> to have basic computer and internet navigation skills</td>
+                                                        <td>HTML Fundamentals, Elements,<br> Attributes, Headings,<br> Paragraphs, Formatting,<br> Styles, Links,<br> Images, Tables,<br> Lists, Forms, Colors, HTML Advanced</td>
+                                                        <td><img src="../img/blog-img/lb-1.jpg"></td>
+                                                        <td style="white-space: nowrap; width: 1%;">
+                                                            <div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
+                                                                <div class="btn-group btn-group-sm" style="float: none;">
+                                                                    <button type="button" class="tabledit-edit-button btn btn-sm btn-primary" style="float: none;"><span class="fa fa-pencil"></span> &nbsp; EDIT</button>
+                                                                    <button type="button" class="tabledit-delete-button btn btn-sm btn-danger" style="float: none;"><span class="fa fa-trash"></span> &nbsp; DELETE</button>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr role="row" class="odd">
+                                                        <td class="sorting_1">Web Development</td>
+                                                        <td>2 Months</td>
+                                                        <td height="50px">Though this is an introductory course, students are expected <br> to have basic computer and internet navigation skills</td>
+                                                        <td>HTML Fundamentals, Elements,<br> Attributes, Headings,<br> Paragraphs, Formatting,<br> Styles, Links,<br> Images, Tables,<br> Lists, Forms, Colors, HTML Advanced</td>
+                                                        <td><img src="../img/blog-img/lb-1.jpg"></td>
+                                                        <td style="white-space: nowrap; width: 1%;">
+                                                            <div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
+                                                                <div class="btn-group btn-group-sm" style="float: none;">
+                                                                    <button type="button" class="tabledit-edit-button btn btn-sm btn-primary" style="float: none;"><span class="fa fa-pencil"></span> &nbsp; EDIT</button>
+                                                                    <button type="button" class="tabledit-delete-button btn btn-sm btn-danger" style="float: none;"><span class="fa fa-trash"></span> &nbsp; DELETE</button>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr role="row" class="odd">
+                                                        <td class="sorting_1">Web Development</td>
+                                                        <td>2 Months</td>
+                                                        <td height="50px">Though this is an introductory course, students are expected <br> to have basic computer and internet navigation skills</td>
+                                                        <td>HTML Fundamentals, Elements,<br> Attributes, Headings,<br> Paragraphs, Formatting,<br> Styles, Links,<br> Images, Tables,<br> Lists, Forms, Colors, HTML Advanced</td>
+                                                        <td><img src="../img/blog-img/lb-1.jpg"></td>
                                                         <td style="white-space: nowrap; width: 1%;">
                                                             <div class="tabledit-toolbar btn-toolbar" style="text-align: left;">
                                                                 <div class="btn-group btn-group-sm" style="float: none;">
@@ -202,21 +317,14 @@
                                                         </td>
                                                     </tr>
                                                     
+                                                    
                                                 </tbody>
-                                                <!-- <tfoot>
-                                                    <tr>
-                                                        <th rowspan="1" colspan="1">Name</th>
-                                                        <th rowspan="1" colspan="1">Position</th>
-                                                        <th rowspan="1" colspan="1">Office</th>
-                                                        <th rowspan="1" colspan="1">Age</th>
-                                                        <th rowspan="1" colspan="1">Start date</th>
-                                                        <th rowspan="1" colspan="1">Salary</th></tr>
-                                                </tfoot> -->
+                                            
                                             </table>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <!-- <div class="col-sm-12 col-md-5">
+                                    <!--<div class="row">
+                                         <div class="col-sm-12 col-md-5">
                                             <div class="dataTables_info" id="datatable_info" role="status" aria-live="polite">Showing 1 to 10 of 11 entries
                                             </div>
                                         </div> -->
@@ -230,8 +338,8 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                        </div> -->
-                                    </div>
+                                        </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>

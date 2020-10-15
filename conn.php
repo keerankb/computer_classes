@@ -1,11 +1,11 @@
 <?php
 
-$con = mysqli_connect('localhost','root','','futurecomputer');
-if($con){
-	echo"connection Successful";
-}else{
-	 echo" not connected ";
-}
+// $con = mysqli_connect('localhost','root','','futurecomputer');
+// if($con){
+// 	echo"connection Successful";
+// }else{
+// 	 echo" not connected ";
+// }
 /*
 
 $name = $_POST['name'];
@@ -27,5 +27,26 @@ if($rs)
 	echo "Record Inserted";
 }
 */
+
+
+
+
+$servername = "localhost";
+$username = "root";
+$password = " ";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+
+
+
+
+
 ?>
 	

@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>Python | Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo/future logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -39,7 +39,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                    <div class="section-heading text-center mx-auto wow bounceIn" data-wow-delay="300ms">
                         <!-- <span>The Best</span> -->
                         <h3>Python</h3><br>
                         <span>Duration : 3 months</span>
@@ -47,10 +47,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                <div class="col-12 col-md-6 wow bounceInLeft" data-wow-delay="400ms">
                     <p>Python is a programming language that lets users work more quickly and integrate systems more effectively. Python features a dynamic type system and automatic memory management. It also supports multiple programming paradigms, including object-oriented, imperative, functional, and procedural. Python is a general-purpose, versatile, and popular programming language, good to have any programmer’s repertoire, as it can be used for everything from web development to software creation to scientific applications.</p>
                 </div>
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="500ms">
+                <div class="col-12 col-md-6 wow bounceInRight" data-wow-delay="500ms">
                     <p><strong>Topics Include:</strong>
                         <ol>
                             <li>Python Calculations and Variables in Python</li>
@@ -80,7 +80,7 @@
     <!-- ##### Course Area End ##### -->
 
 <!-- ##### CTA Area Start ##### -->
-    <div class="call-to-action-area">
+    <div class="call-to-action-area wow fadeInUp" data-wow-delay="600ms">
         <div class="container">
             <div class="row">
                 <div class="col-12">

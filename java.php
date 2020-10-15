@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>Java | Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo/future logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -40,7 +40,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                    <div class="section-heading text-center mx-auto wow bounceIn" data-wow-delay="300ms">
                         <!-- <span>The Best</span> -->
                         <h3>Java Programming</h3><br>
                         <span>Duration : 3 months</span>
@@ -48,10 +48,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                <div class="col-12 col-md-6 wow bounceInLeft" data-wow-delay="400ms">
                     <p>Students are expected to have basic computer and Internet navigation skills for this introductory course.Java is designed to be object-oriented, and similar to C++ while removing the unnecessary complexities of C++. Java enables the development of robust applications on multiple platforms in heterogeneous, distributed networks. This course provides a foundation for writing, compiling, and executing Java programs. It covers the fundamentals of Java: class, method, inheritance, encapsulation, abstraction, polymorphism, etc. It also introduces the principles of Web applications development with the Java Enterprise Edition (Java EE) platform.</p>
                 </div>
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="500ms">
+                <div class="col-12 col-md-6 wow bounceInRight" data-wow-delay="500ms">
                     <p><strong>Course Structure:</strong><br>
                     Java language essentials structures: types, variables, operators, expressions, statements, control flow, arrays, strings.OOP paradigm and principles: message passing, information hiding, object instantiation, class hierarchies, task delegation. <br>
                     Encapsulation: Classes, interface and implementations, control of visibility, instantiation and initialization (constructors), methods and message passing. <br>
@@ -73,7 +73,7 @@
     <!-- ##### Course Area End ##### -->
 
 <!-- ##### CTA Area Start ##### -->
-    <div class="call-to-action-area">
+    <div class="call-to-action-area wow fadeInUp" data-wow-delay="600ms">
         <div class="container">
             <div class="row">
                 <div class="col-12">

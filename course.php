@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>Course | Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo/future logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -35,7 +35,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                    <div class="section-heading text-center mx-auto wow bounceIn" data-wow-delay="300ms">
                         <span>The Best</span>
                         <h3>Top Popular Courses</h3>
                     </div>
@@ -45,7 +45,7 @@
                
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInLeft" data-wow-delay="400ms">
                         <div class="popular-course-content">
                             <h5>Web Development</h5>
                             <span>By Simon Smith   |  March 18, 2018</span>
@@ -66,7 +66,7 @@
                 
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInRight" data-wow-delay="500ms">
                         <div class="popular-course-content">
                             <h5>Java</h5>
                             <span>By Simon Smith   |  March 18, 2018</span>
@@ -87,7 +87,7 @@
                 
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="600ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInLeft" data-wow-delay="600ms">
                         <div class="popular-course-content">
                             <h5>Python</h5>
                             <span>By Simon Smith   |  March 18, 2018</span>
@@ -108,7 +108,7 @@
                 
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="700ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInRight" data-wow-delay="700ms">
                         <div class="popular-course-content">
                             <h5>C & C++ Programming</h5>
                             <span>By Simon Smith   |  March 18, 2018</span>
@@ -129,7 +129,7 @@
             
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="800ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInLeft" data-wow-delay="800ms">
                         <div class="popular-course-content">
                             <h5>ASP.Net</h5>
                             <span>By Simon Smith   |  March 18, 2018</span>
@@ -150,7 +150,7 @@
 
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="900ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInRight" data-wow-delay="900ms">
                         <div class="popular-course-content">
                             <h5>SQL</h5>
                             <span>By Simon Smith   |  March 18, 2018</span>
@@ -181,7 +181,7 @@
     <!-- ##### Top Popular Courses Area End ##### -->
 
     <!-- ##### Top Popular Courses Details Area Start ##### -->
-    <div class="popular-course-details-area wow fadeInUp" data-wow-delay="300ms">
+    <div class="popular-course-details-area wow fadeInLeft" data-wow-delay="300ms">
         <div class="single-top-popular-course d-flex align-items-center flex-wrap">
             <div class="popular-course-content">
                 <h5>Web Development</h5>
@@ -200,7 +200,7 @@
         </div>
     </div>
 
-    <div class="popular-course-details-area wow fadeInUp" data-wow-delay="300ms">
+    <div class="popular-course-details-area wow fadeInRight" data-wow-delay="300ms">
         <div class="single-top-popular-course d-flex align-items-center flex-wrap">
             <div class="popular-course-thumb bg-img" style="background-image: url(img/course-img/java.jpg);"></div>
             <div class="popular-course-content">
@@ -219,7 +219,7 @@
         </div>
     </div>
 
-    <div class="popular-course-details-area wow fadeInUp" data-wow-delay="300ms">
+    <div class="popular-course-details-area wow fadeInLeft" data-wow-delay="300ms">
         <div class="single-top-popular-course d-flex align-items-center flex-wrap">
             <div class="popular-course-content">
                 <h5>Python Programming</h5>
@@ -239,7 +239,7 @@
     </div>
 
 
-    <div class="popular-course-details-area wow fadeInUp" data-wow-delay="300ms">
+    <div class="popular-course-details-area wow fadeInRight" data-wow-delay="300ms">
         <div class="single-top-popular-course d-flex align-items-center flex-wrap">
             <div class="popular-course-thumb bg-img" style="background-image: url(img/course-img/c++.jpg);"></div>
             <div class="popular-course-content">
@@ -268,7 +268,7 @@
             <div class="row">
                 <!-- Single Course Area -->
                 <div class="col-12 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow slideInLeft" data-wow-delay="200ms">
                         <div class="course-icon">
                             <i class="icon-id-card"></i>
                         </div>
@@ -280,7 +280,7 @@
                 </div>
                 <!-- Single Course Area -->
                 <div class="col-12 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow slideInDown" data-wow-delay="200ms">
                         <div class="course-icon">
                             <i class="icon-worldwide"></i>
                         </div>
@@ -292,7 +292,7 @@
                 </div>
                 <!-- Single Course Area -->
                 <div class="col-12 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow slideInRight" data-wow-delay="200ms">
                         <div class="course-icon">
                             <i class="icon-map"></i>
                         </div>

@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>C & C++ | Future Computer</title>
+    <title>CCC | Future Computer</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/logo/future logo.png">
@@ -41,26 +41,26 @@
                 <div class="col-12">
                     <div class="section-heading text-center mx-auto wow bounceIn" data-wow-delay="300ms">
                         <!-- <span>The Best</span> -->
-                        <h3>C & C++ Programming</h3><br>
+                        <h3>Course on Computer Concepts</h3><br>
                         <span>Duration : 2 months</span>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6 wow bounceInLeft" data-wow-delay="400ms">
-                    <p>Familiarity with at least one other programming language would be useful for this introductory course. Students need basic computer and internet navigation skills. The course provides a foundation for learning C++, a general-purpose, object-oriented programming language with portability, modularity, and compatibility with C and other languages. Object-Oriented Programming (OOP) is a technique to create programs based on objects, with analogs from the real world. OOP enables the programmer to build complex software components that are designed in a modular fashion, and are extensible and re-usable.</p>
+                    <p>Digitalization demands proficiency in computer languages. Future Computers has introduced Course on Computer Concepts (CCC) for the efficiency of the learners. There is no age bar as we're firm believers of learning has no age. Our tutors begin with the basic digital literacy and move to the advanced level. This course is specifically designed to impart common men with basic IT skills and save their plight. If you wish to enhance your computer skills from the beginner's level, you've come to the right place. Future Computers aims to spread the knowledge of digital world amongst mankind. Our courses have got everything covered starting from the basic introduction to computer, to WWW and web browsers and even presentations. The popularity and benefits of CCC makes it relevant in wider and varied contexts. Without further ado, join our experts in a live and engaging session and become a maestro in CCC. </p>
                 </div>
                 <div class="col-12 col-md-6 wow bounceInRight" data-wow-delay="500ms">
                     <p><strong>Course Structure:</strong><br>
                         <ol>
-                            <li>Basic Object-Oriented Programming concepts</li>
-                            <li>C++ fundamentals & similarities/differences with C language</li>
-                            <li>Declarations, identifiers and pointers in C++</li>
-                            <li>Classes, Objects and encapsulation</li>
-                            <li>Memory management, constructors, and destructors</li>
-                            <li>Object relationships – inheritance and polymorphism</li>
-                            <li>File I/O and Input/Output streams</li>
-                            <li>Exception handling</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ol>
                     </p>
                 </div>

@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>Branch | Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo/future logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -32,12 +32,12 @@
 
 
     <!-- Branches Details -->
-    <section class="branch-section wow fadeInUp section-padding-100" data-wow-delay="300ms">
+    <section class="branch-section wow pulse section-padding-100" data-wow-delay="300ms">
         <div class="container">
             <div class="col-12">
                 <div class="row">
                     <div class="col-12">
-                        <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                        <div class="section-heading text-center mx-auto wow pulse" data-wow-delay="300ms">
                             <span>  </span>
                             <h3>Meet us at</h3>
                         </div>
@@ -60,7 +60,7 @@
 
 
 <!-- ##### CTA Area Start ##### -->
-    <div class="call-to-action-area">
+    <!-- <div class="call-to-action-area">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- ##### CTA Area End ##### -->
 
 

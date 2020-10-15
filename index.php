@@ -9,17 +9,17 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>Home | Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo/future logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
 
 </head>
 
-<body>
+<body>    
    <?php include'header.php'; ?> 
     
     <!-- ##### Hero Area Start ##### -->
@@ -32,8 +32,8 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <div class="hero-slides-content">
-                                <h4 data-animation="fadeInUp" data-delay="100ms">All the courses you need</h4>
-                                <h2 data-animation="fadeInUp" data-delay="400ms">Wellcome to our <br>Online University</h2>
+                                <h4 data-animation="rollIn" data-delay="100ms">All the courses you need</h4>
+                                <h2 data-animation="rollIn" data-delay="400ms">Wellcome to our <br>Online University</h2>
                                 <a href="course.php" class="btn academy-btn" data-animation="fadeInUp" data-delay="700ms">Read More</a>
                             </div>
                         </div>
@@ -47,8 +47,8 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <div class="hero-slides-content">
-                                <h4 data-animation="fadeInUp" data-delay="100ms">All the courses you need</h4>
-                                <h2 data-animation="fadeInUp" data-delay="400ms">Wellcome to our <br>Online University</h2>
+                                <h4 data-animation="rollIn" data-delay="100ms">All the courses you need</h4>
+                                <h2 data-animation="rollIn" data-delay="400ms">Wellcome to our <br>Online University</h2>
                                 <a href="course.php" class="btn academy-btn" data-animation="fadeInUp" data-delay="700ms">Read More</a>
                             </div>
                         </div>
@@ -99,13 +99,13 @@
     <!-- ##### Course Area Start ##### -->
     <div class="academy-courses-area section-padding-100-0">
         <div class="container">
-            <div class="col-md-12 text-center feature-heading wow fadeInUp" data-wow-delay="300ms">
+            <div class="col-md-12 text-center feature-heading wow swing" data-wow-delay="200ms">
                 <h2>Our Key Features</h2>
             </div>
             <div class="row">
                 <!-- Single Course Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow slideInLeft" data-wow-delay="300ms">
                         <div class="course-icon">
                             <i class="icon-id-card"></i>
                         </div>
@@ -116,7 +116,7 @@
                 </div>
                 <!-- Single Course Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow slideInDown" data-wow-delay="400ms">
                         <div class="course-icon">
                             <i class="icon-worldwide"></i>
                         </div>
@@ -127,7 +127,7 @@
                 </div>
                 <!-- Single Course Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow slideInRight" data-wow-delay="500ms">
                         <div class="course-icon">
                             <i class="icon-map"></i>
                         </div>
@@ -138,7 +138,7 @@
                 </div>
                 <!-- Single Course Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="600ms">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow slideInLeft" data-wow-delay="600ms">
                         <div class="course-icon">
                             <i class="icon-like"></i>
                         </div>
@@ -149,7 +149,7 @@
                 </div>
                 <!-- Single Course Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="700ms">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow slideInDown" data-wow-delay="700ms">
                         <div class="course-icon">
                             <i class="icon-responsive"></i>
                         </div>
@@ -160,7 +160,7 @@
                 </div>
                 <!-- Single Course Area -->
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-course-area d-flex align-items-center mb-100 wow fadeInUp" data-wow-delay="800ms">
+                    <div class="single-course-area d-flex align-items-center mb-100 wow slideInRight" data-wow-delay="800ms">
                         <div class="course-icon">
                             <i class="icon-message"></i>
                         </div>
@@ -188,52 +188,52 @@
             <div class="row">
                 <!-- Single Testimonials Area -->
                 <div class="col-12 col-md-6">
-                    <div class="single-testimonial-area mb-100 d-flex wow fadeInUp" data-wow-delay="400ms">
+                    <div class="single-testimonial-area mb-100 d-flex wow bounceInLeft" data-wow-delay="400ms">
                         <div class="testimonial-thumb">
                             <img src="img/bg-img/t1.jpg" alt="">
                         </div>
                         <div class="testimonial-content">
                             <h5>Great teachers</h5>
-                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                            <p>Future Computers is one of the best institutions out there if you wish to learn a course from the scratch. The teachers are extremely helpful and they leave no stone unturned if you've any queries. Their efficiency and professionalism deserves special mention. They've updated software techniques which makes it appropriate as per industry standards. I'm extremely satisfied with their service. I would encourage others to come here and learn programming. </p>
                             <h6><span>Maria Smith,</span> Student</h6>
                         </div>
                     </div>
                 </div>
                 <!-- Single Testimonials Area -->
                 <div class="col-12 col-md-6">
-                    <div class="single-testimonial-area mb-100 d-flex wow fadeInUp" data-wow-delay="500ms">
+                    <div class="single-testimonial-area mb-100 d-flex wow bounceInRight" data-wow-delay="500ms">
                         <div class="testimonial-thumb">
                             <img src="img/bg-img/t2.jpg" alt="">
                         </div>
                         <div class="testimonial-content">
                             <h5>Easy and user friendly courses</h5>
-                            <p>Retiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+                            <p>I'd no knowledge about the basics of computer. I was looking for a course when a friend recommended me Future Computers. Their teachers are extremely thorough and helpful. They've helped me with my littlest of doubts. This course includes everything starting from the very basic. Future Computers has adhered to their values and mission as they’ve indeed succeeded in delivering promising content. The best part about this course is it doesn’t burn a hole in your pocket. </p>
                             <h6><span>Shawn Gaines,</span> Student</h6>
                         </div>
                     </div>
                 </div>
                 <!-- Single Testimonials Area -->
                 <div class="col-12 col-md-6">
-                    <div class="single-testimonial-area mb-100 d-flex wow fadeInUp" data-wow-delay="600ms">
+                    <div class="single-testimonial-area mb-100 d-flex wow bounceInLeft" data-wow-delay="600ms">
                         <div class="testimonial-thumb">
                             <img src="img/bg-img/t3.jpg" alt="">
                         </div>
                         <div class="testimonial-content">
                             <h5>I just love the courses here</h5>
-                            <p>Nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio ves tibul.</p>
+                            <p>If you want to learn from an authentic source in an affordable rate, choose Future Computers. They've been immensely helpful and vivid in their work. When I began the course, I knew little to nothing about MS Office but now I can proudly say that I've become adept in this feature. Moreover, they've placement facility which helped me to acquire a well paid job. Future Computers is the face of tomorrow in the era of technology. </p>
                             <h6><span>Ross Cooper,</span> Student</h6>
                         </div>
                     </div>
                 </div>
                 <!-- Single Testimonials Area -->
                 <div class="col-12 col-md-6">
-                    <div class="single-testimonial-area mb-100 d-flex wow fadeInUp" data-wow-delay="700ms">
+                    <div class="single-testimonial-area mb-100 d-flex wow bounceInRight" data-wow-delay="700ms">
                         <div class="testimonial-thumb">
                             <img src="img/bg-img/t4.jpg" alt="">
                         </div>
                         <div class="testimonial-content">
                             <h5>One good academy</h5>
-                            <p>Vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibu lum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio ves tibul. Etiam nec odio vestibulum est mat tis effic iturut magnaNec odio vestibulum est mattis effic iturut magna.</p>
+                            <p>Future Computers has helped me a lot with my typing speed. I always felt isolated in my work place because I couldn’t type faster. But, the proficient tutors here helped me to overcome my barriers and excel in my field. I can type much faster now. </p>
                             <h6><span>James Williams,</span> Student</h6>
                         </div>
                     </div>
@@ -248,7 +248,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                    <div class="section-heading text-center mx-auto wow bounceInUp" data-wow-delay="300ms">
                         <span>The Best</span>
                         <h3>Top Popular Courses</h3>
                     </div>
@@ -258,7 +258,7 @@
                
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInLeft" data-wow-delay="400ms">
                         <div class="popular-course-content">
                             <h5>Web Development</h5>
                             <span>By Simon Smith   |  March 18, 2018</span>
@@ -279,7 +279,7 @@
                 
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInRight" data-wow-delay="500ms">
                         <div class="popular-course-content">
                             <h5>Java</h5>
                             <span>By Simon Smith   |  March 18, 2018</span>
@@ -300,7 +300,7 @@
                 
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="600ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInLeft" data-wow-delay="600ms">
                         <div class="popular-course-content">
                             <h5>Python</h5>
                             <span>By Simon Smith   |  March 18, 2018</span>
@@ -321,7 +321,7 @@
                 
                 <!-- Single Top Popular Course -->
                 <div class="col-12 col-lg-6">
-                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="700ms">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInRight" data-wow-delay="700ms">
                         <div class="popular-course-content">
                             <h5>C++ Programming</h5>
                             <span>By Simon Smith   |  March 18, 2018</span>
@@ -351,17 +351,40 @@
     </div>
     <!-- ##### Top Popular Courses Area End ##### -->
 
+
+
+    <!-- ##### CTA Area Start ##### -->
+    <div class="call-to-action-area wow fadeInUp" data-wow-delay="300ms">
+        <div class="container">
+            <div class="row">
+                <div class="container">
+                    <div class="cta-content d-flex align-items-center justify-content-between flex-wrap">
+                        <div class="col-sm-10">
+                            <h3>Are you looking for professional software developer please contact us</h3>
+                        </div>
+                        <div class="col-sm-2 text-center">
+                            <a href="https://www.destovtech.com/" class="btn academy-btn">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### CTA Area End ##### -->
+
+
+
     <!-- ##### Partner Area Start ##### -->
 
-<section class="partner-area section-padding-0-100">
+<section class="partner-area section-padding-0-100 mt-100">
     <div class="container">
             <div class="row mb-30">
                 <div class="col-12">
-                     <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                     <div class="section-heading text-center mx-auto wow rotateIn" data-wow-delay="300ms">
                         <!-- <span>The Best</span> -->
                         <h3>Our Partners</h3> 
                     </div>
-                    <div class="partners-logo d-flex align-items-center justify-content-between flex-wrap wow fadeInUp" data-wow-delay="700ms">
+                    <div class="partners-logo d-flex align-items-center justify-content-between flex-wrap">
                     <marquee Scrollamount=10 loop="">
                         <a href="#"><img src="img/clients-img/google-partner.jpg" alt=""></a>
                         <a href="#"><img src="img/clients-img/Microsoft-partner.jpg" alt=""></a>

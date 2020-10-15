@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>Web Development | Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo/future logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -39,17 +39,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                    <div class="section-heading text-center mx-auto wow bounceIn" data-wow-delay="300ms">
                         <h3>Web Development</h3><br>
                         <span>Duration : 2 months</span>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                <div class="col-12 col-md-6 wow bounceInLeft" data-wow-delay="400ms">
                     <p>Though this is an introductory course, students are expected to have basic computer and internet navigation skills. Familiarity with a standard text editor such as Notepad, WordPad etc. is required.HTML (HyperText Markup Language), the Web’s foundation language, is still central to developing Web-based applications. Students acquire the tools required to build solid static web pages with a step-by-step building approach. The course will outline the use of XHTML (EXtensible HyperText Markup Language, a stricter and cleaner version of HTML) during the web development process</p>
                 </div>
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="500ms">
+                <div class="col-12 col-md-6 wow bounceInRight" data-wow-delay="500ms">
                     <p><strong>Topics Include:</strong>
                         <ol>
                             <li>HTML Fundamentals</li>
@@ -78,7 +78,7 @@
     <!-- ##### Course Area End ##### -->
 
 <!-- ##### CTA Area Start ##### -->
-    <div class="call-to-action-area">
+    <div class="call-to-action-area wow fadeInUp" data-wow-delay="600ms">
         <div class="container">
             <div class="row">
                 <div class="col-12">

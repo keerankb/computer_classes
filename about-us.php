@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>About Us | Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo/future logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -34,18 +34,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                    <div class="section-heading text-center mx-auto wow bounceIn" data-wow-delay="300ms">
                         <span>The Best</span>
                         <h3>Who are we ?</h3>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                    <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod. Morbi vel arcu gravida, iaculis lacus vel, posuere ipsum. Sed faucibus mauris vitae urna consectetur, sit amet maximus nisl sagittis. Ut in iaculis enim, et pulvinar mauris. Etiam tristique magna eget velit consectetur, a tincidunt velit dictum. Cras vulputate metus id felis ornare hendrerit. Maecenas sodales suscipit ipsum.</p>
+                <div class="col-12 col-md-6 wow bounceInLeft" data-wow-delay="400ms">
+                    <p>Future Computers is an emerging educational institution which offers wide range of courses. In this era, it is important to be technologically savvy otherwise you might miss out great opportunities. Our institution provides courses on basic Computer Languages( C++, Java, etc.), Desktop Publishing Course, MS Office etc. The tutors are extremely professional and they ensure astounding informative classes. We cover the plethora of knowledge that software applications and computer provides. We realise the importance of evaluative courses to instigate curiosity among learners. We engage in live interactive sessions with the students and act according to their needs. Put your faith and trust on us and eliminate all the perplexing anxieties. We take one step at a time and go into thorough details to create a better learning experience. Our teachers are extremely enthusiastic and pragmatic. Our curriculum is extremely diverse and progressive attending to each and every needs of our current technological society.</p>
                 </div>
-                <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay="500ms">
-                    <p>Vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod. Morbi vel arcu gravida, iaculis lacus vel, posuere ipsum. Sed faucibus mauris vitae urna consectetur, sit amet maximus nisl sagittis. Ut in iaculis enim, et pulvinar mauris. Etiam tristique magna eget velit consectetur, a tincidunt velit dictum. Cras vulputate metus id felis ornare hendrerit. Maecenas sodales suscipit ipsum.</p>
+                <div class="col-12 col-md-6 wow bounceInRight" data-wow-delay="500ms">
+                    <p>We ensure doubt clearing sessions as well as unlimited test practice till you reach the level of excellence. We strive to train students in a high class environment with continuous result oriented practices. Our institution also rewards students with efficient placement where they can become their best selves. It is important to nurture young minds with the right amount of knowledge. We organise occasional seminars attended by renowned scholars where they share their valuable inputs with our students. We've also started language courses on Hindi, Marathi and English to increase fluency among learners. Future Computer aims to reach every student out there and bestow top quality courses upon them. We've an extremely efficient support team so you can reach to us with any queries that’s hogging your mind. It is our aim to become one of the leading educational institutions and help learners achieve their goal. </p>
                 </div>
             </div>
             <div class="row">
@@ -66,39 +66,39 @@
 <section class="aboutus-card">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="400ms">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4 wow flipInX" data-wow-delay="400ms">
                 <div class="card about-card text-center">
                     <div class="card-header text-center border-bottom-0 bg-transparent text-success pt-4">
                         <i class="card-img"><img src="img/feature-img/placement.png" height="65px" width="65px"></i>
                     </div>
                     <div class="card-body">
                         <h2>Our Mission</h2>
-                        <h5 class="text-muted"><small>We provide access to affordable education for a diverse community from all ethnic backgrounds and identities, preparing individuals for success and lifelong learning. We promote academic excellence, empower all learners to become productive.<br><br></small></h5>
+                        <h5 class="text-muted"><small>It is our mission to encourage learners to leave behind their fears regarding software applications and expose themselves to a heap of knowledge that technology brings forth. Technology is the key to survive for a better tomorrow.<br><br></small></h5>
                     </div>
                 </div>
             </div>
 
 
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="600ms">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4 wow flipInX" data-wow-delay="600ms">
                 <div class="card about-card text-center">
                     <div class="card-header text-center border-bottom-0 bg-transparent text-success pt-4">
                         <i class="card-img"><img src="img/feature-img/calendar.png" height="65px" width="65px"></i>
                     </div>
                     <div class="card-body">
                         <h2>Our Vision</h2>
-                        <h5 class="text-muted"><small>We committed to academic excellence and transforming lives through educational and as well as career opportunities for all members of our community. We will inspire and prepare individuals to successfully meet the challenges of a rapidly changing world.<br><br></small></h5>
+                        <h5 class="text-muted"><small>Future Computers values the ethnicity and integration of technology and is determined to put forward a positive attitude to contribute for the benefit of the learners. We value the best quality teaching and courses for our aspirants.<br><br><br></small></h5>
                     </div>
                 </div>
             </div>
             
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="600ms">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4 wow flipInX" data-wow-delay="800ms">
                 <div class="card about-card text-center">
                     <div class="card-header text-center border-bottom-0 bg-transparent text-success pt-4">
                         <i class="card-img"><img src="img/feature-img/syllabus.png" height="65px" width="65px"></i>
                     </div>
                     <div class="card-body">
                         <h2>Our Values</h2>
-                        <h5 class="text-muted"><small>We are providing outstanding programs that promote personal and professional success within an environmentof integrity and civility and also we provide pathways to success, an exceptional learning experience a global outlook to meet students.<br><br></small></h5>
+                        <h5 class="text-muted"><small>Future Computers was established in 2005 and ever since then, it has been our aim to aspire learners to dig deep in various aspects of technology and master the skill. We aim to expand our reach globally and spread the ideologies of software applications. <br><br></small></h5>
                     </div>
                 </div>
             </div>

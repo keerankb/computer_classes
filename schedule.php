@@ -9,33 +9,14 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>Schedule | Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo/future logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-   <?php include'header.php'; ?> 
-
-       <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
-        <div class="bradcumbContent">
-            <h2>Time-Table</h2>
-        </div>
-    </div>
-    <!-- ##### Breadcumb Area End ##### -->
-
-
-
-
-
-
-<style>
+    <style>
     
     .reg-modal .modal-header {
         background-color: #343a40;
@@ -67,29 +48,118 @@
     }
     }
 
-.reg-modal .modal-content .modal-body .mod-content input::-webkit-outer-spin-button,
-.reg-modal .modal-content .modal-body .mod-content input::-webkit-inner-spin-button {
-  -webkit-appearance: none !important;
-  margin: 0 !important;
-}
-.reg-modal .modal-content .modal-body .mod-content input[type=number] {
-  -moz-appearance: textfield !important;
-}
+    .reg-modal .modal-content .modal-body .mod-content input::-webkit-outer-spin-button,
+    .reg-modal .modal-content .modal-body .mod-content input::-webkit-inner-spin-button {
+        -webkit-appearance: none !important;
+        margin: 0 !important;
+    }
+    .reg-modal .modal-content .modal-body .mod-content input[type=number] {
+        -moz-appearance: textfield !important;
+    }
 
 </style>
+<style>
+    
+    .course-schedule .course-schedule-content {
+        margin: 10px 20px;
+        padding: 10px 20px;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .course-schedule .course-schedule-content td{
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 20px; 
+    }
+    .course-schedule .course-schedule-content td button {
+        /*margin-bottom: 20px;*/
+        /*margin-left: 20px;*/
+        justify-content: center;
+        /*position: relative;
+        right: 80px;*/
+    }
+    /*
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .course-schedule .course-schedule-content {
+        margin: 10px 20px; } }
+    @media only screen and (max-width: 767px) {
+      .course-schedule .course-schedule-content {
+        padding: 10px 20px; } }
+*/
+/*@media only screen and (min-width: 575px) and (max-width: 766px){
+    .course-schedule .course-schedule-content {
+    margin: 10px 20px;
+    padding: 10px 20px;
+}}*/
+
+
+    @media only screen and (max-width: 1200px) {
+        #course-tables table, #course-tables thead, #course-tables tbody, #course-tables th, #course-tables td, #course-tables tr {
+             display: block;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #course-tables td  {
+        position: relative;
+        border: none;
+        border-bottom: 1px solid #eee;
+        padding-left: 50%;
+        white-space: normal;
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #course-tables tr {
+        border: 1px solid #ccc;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #course-tables thead {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px) {
+#course-tables td:before {
+    content: attr(data-title);
+} }
+@media only screen and (max-width: 1200px) {
+#course-tables td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 20px; 
+    padding-bottom: 15px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+}}
+@media only screen and (max-width: 1200px) {
+    #course-tables button {
+        position: relative;
+        right: 65px;
+    }
+}
+</style>
+</head>
+
+<body>
+   <?php include'header.php'; ?> 
+
+       <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
+        <div class="bradcumbContent">
+            <h2>Time-Table</h2>
+        </div>
+    </div>
+    <!-- ##### Breadcumb Area End ##### -->
 
 
 
-
-
-
-
-
-
-
-
-
-
+<!-- ##### Register Modal starts ##### -->
     <div id="regModal1" class="modal fade" role="dailog">
         <div class="reg-modal modal-dialog modal-lg modal-dialog-centered" role="content">
             <div class="modal-content">
@@ -521,125 +591,22 @@
         </div>
     </div>
 
+<!-- ##### Register Modal ends ##### -->
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<style>
-    
-    .course-schedule .course-schedule-content {
-        margin: 10px 20px;
-        padding: 10px 20px;
-        justify-content: center;
-        font-size: 16px;
-    }
-    .course-schedule .course-schedule-content td{
-        padding-top: 15px;
-        padding-left: 15px;
-        padding-right: 20px; 
-    }
-    .course-schedule .course-schedule-content td button {
-        /*margin-bottom: 20px;*/
-        /*margin-left: 20px;*/
-        justify-content: center;
-        /*position: relative;
-        right: 80px;*/
-    }
-    /*
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .course-schedule .course-schedule-content {
-        margin: 10px 20px; } }
-    @media only screen and (max-width: 767px) {
-      .course-schedule .course-schedule-content {
-        padding: 10px 20px; } }
-*/
-/*@media only screen and (min-width: 575px) and (max-width: 766px){
-    .course-schedule .course-schedule-content {
-    margin: 10px 20px;
-    padding: 10px 20px;
-}}*/
-
-
-    @media only screen and (max-width: 1200px) {
-        #course-tables table, #course-tables thead, #course-tables tbody, #course-tables th, #course-tables td, #course-tables tr {
-             display: block;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    #course-tables td  {
-        position: relative;
-        border: none;
-        border-bottom: 1px solid #eee;
-        padding-left: 50%;
-        white-space: normal;
-        text-align: left;
-    }
-}
-@media only screen and (max-width: 1200px) {
-    #course-tables tr {
-        border: 1px solid #ccc;
-    }
-}
-@media only screen and (max-width: 1200px) {
-    #course-tables thead {
-        display: none;
-    }
-}
-@media only screen and (max-width: 1200px) {
-#course-tables td:before {
-    content: attr(data-title);
-} }
-@media only screen and (max-width: 1200px) {
-#course-tables td:before {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    width: 45%;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 20px; 
-    padding-bottom: 15px;
-    white-space: nowrap;
-    text-align: left;
-    font-weight: bold;
-}}
-@media only screen and (max-width: 1200px) {
-    #course-tables button {
-        position: relative;
-        right: 65px;
-    }
-}
-</style>
+<!-- ##### Table starts here ##### -->
 
 <section class="section-padding-100">
     <div class="container">
         <div class="col-12">
-            <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+            <div class="section-heading text-center mx-auto wow bounceIn" data-wow-delay="300ms">
                 <span> Here are some </span>
                 <h3>Online Batch Schedule</h3>
             </div>
         </div>
         <!-- <h1>hello</h1> -->
-        <div class="course-schedule wow fadeInUp" data-wow-delay="300ms">
+        <div class="course-schedule wow bounceInUp" data-wow-delay="300ms">
             <div class="course-schedule-content">
                 <div class="table-responsive" id="course-tables">
                 <table class="table table-striped table-bordered">
@@ -744,6 +711,7 @@
     </div>
 </section>
 
+<!-- ##### Table ends here ##### -->
 
 
 

@@ -1,3 +1,97 @@
+<?php
+   //include("db_connection.php");
+   // session_start();
+   
+   // if($_SERVER["REQUEST_METHOD"] == "POST") {
+   //    // username and password sent from form 
+      
+   //    $myusername = mysqli_real_escape_string($db,$_POST['username']);
+   //    $mypassword = mysqli_real_escape_string($db,$_POST['password']); 
+      
+   //    $sql = "SELECT * FROM admin_login WHERE username = '$myusername' and password = '$mypassword'";
+   //    $result = mysqli_query($conn,$sql);
+   //    $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+   //    $active = $row['active'];
+      
+   //    $count = mysqli_num_rows($result);
+      
+   //    // If result matched $myusername and $mypassword, table row must be 1 row
+        
+   //    if($count == 1) {
+   //       session_register("myusername");
+   //       $_SESSION['login_user'] = $myusername;
+         
+   //       header("location: index.php");
+   //    }else {
+   //       $error = "Your Login Name or Password is invalid";
+   //    }
+   // }
+
+
+
+
+    function OpenCon()
+ {
+ $dbhost = "localhost";
+ $dbuser = "root";
+ $dbpass = "";
+ $db = "future_comp";
+
+
+ $conn = new mysqli($dbhost, $dbuser, $dbpass, $db) or die("Connect failed: %s\n". $conn -> error);
+
+ 
+ return $conn;
+ }
+ 
+function CloseCon($conn)
+ {
+ $conn -> close();
+ }
+
+
+$conn = OpenCon();
+
+//echo "Connected Successfully";
+
+//CloseCon($conn);
+
+
+
+session_start();
+if($_SERVER["REQUEST_METHOD"] == "POST") {
+    $myusername = mysqli_real_escape_string($conn,$_POST['username']);
+    $mypassword = mysqli_real_escape_string($conn,$_POST['password']); 
+
+    $sql = "SELECT * FROM admin_login WHERE username = '$myusername' and password = '$mypassword'";
+    $result = mysqli_query($conn,$sql);
+
+    $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+    $active = $row['active'];
+      
+      $count = mysqli_num_rows($result);
+      
+      // If result matched $myusername and $mypassword, table row must be 1 row
+        
+      if($count == 1) {
+         // session_register("myusername");
+        $_SESSION['username']= "username"; 
+        $_SESSION['login_user'] = $myusername;
+         
+         header("location: index.php");
+      }else {
+         $error = "Your Login Name or Password is invalid";
+      }
+   }
+
+
+
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,10 +103,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Academy - Education Course Template</title>
+    <title>Login | Admin Panel - Future Computer</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="shortcut icon" href="../img/logo/future logo.png">
 
     <!-- plugin stylesheets -->
     <link rel="stylesheet" type="text/css" href="assets/css/vendors.css" />
@@ -77,11 +171,11 @@
                                                 </div>
                                                 <div class="col-12 mt-3">
                                                     <!-- <a class="btn btn-primary text-uppercase" type="submit" value="Sign In">Sign In</a> -->
-                                                    <button class="btn btn-primary" type="submit" value="submit" name="submit">Log IN</button>
+                                                    <button class="btn btn-primary" type="submit" value="submit" name="submit">LOGIN</button>
 
                                                 </div>
                                                 <div class="col-12  mt-3">
-                                                    <p>Don't have an account ?<a href="auth-register.html"> Sign Up</a></p>
+                                                    <p>Don't have an account ?<a href="admin-signup.php"> Sign Up</a></p>
                                                 </div>
                                             </div>
                                         </form>
